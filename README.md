@@ -35,10 +35,10 @@ I refactored my Lab 1 Google Play scraper code into reusable functions:
 - `get_app_details(app_id)` — fetches full details for a single app
 - `get_reviews(app_id, count)` — fetches user reviews across three sort modes (Most Relevant, Newest, Rating) and deduplicates them
 
-### Page 1 – Results Table (`1_Results_Table.py`)
+### Results Table (`1_Results_Table.py`)
 I built a search interface where the user types a search term, chooses the number of results, and clicks Search. The app calls `search_apps()` live from the Google Play API and displays a filterable dataframe. Results are stored in `st.session_state` to be shared with other pages. The sidebar allows filtering by app type, minimum rating, and genre.
 
-### Page 2 – Visualizations (`2_Visualizations.py`)
+### Visualizations (`2_Visualizations.py`)
 I read the search results from `st.session_state` and created 6 interactive Plotly visualizations:
 - Ratings distribution histogram
 - Top apps by rating (horizontal bar chart)
