@@ -9,9 +9,5 @@ I started by creating a test_app.py file to explore and test all of Streamlit's 
 ### Theming
 I created a .streamlit/config.toml file to customize the app's theme, setting the primary color, background, text color, and font. This file sits next to test_app.py and is automatically picked up by Streamlit on startup.
 
-## Competitor Analysis App
-
-I built a multi-page Streamlit app for competitor analysis of mobile apps on the Google Play Store.
-
 
 
